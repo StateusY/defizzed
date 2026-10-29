@@ -1,0 +1,8 @@
+{
+    "id": "defizzed",
+    "pack":{
+        "max_format": 121,
+        "min_format": 94,
+        "description":"Fizzle out that fizz!"
+    }
+}

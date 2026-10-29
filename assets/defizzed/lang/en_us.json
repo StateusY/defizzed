@@ -1,0 +1,9 @@
+{
+    "item.defizzed.fizz_head": "Fizz Head",
+    
+    "advancement.defizzed.fizz_head.name":"Defizzed",
+    "advancement.defizzed.fizz_head.desc":"Relieve that frog of his decorative head",
+    
+    "defizzed.pack_mark": "\ua001\ub001defizzed",
+    "defizzed.loaded": " Loaded!"
+}

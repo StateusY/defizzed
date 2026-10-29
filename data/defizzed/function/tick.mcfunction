@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=defizzed.fizz_head,tag=defizzed.powered] run function defizzed:fizz_head/blink_check
