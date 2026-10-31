@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:multi_action",
+    "title": {
+    "translate": "defizzed.source"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {"translate":"defizzed.dialog.description"},
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate":"defizzed.dialog.info",
+        "color": "gray",
+        "with": [
+          {"translate": "defizzed.version"}
+        ]
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": {"translate":"defizzed.dialog.website"},
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/project/defizzed"
+      }
+    },
+    {
+      "label": {"translate":"defizzed.dialog.issues"},
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/StateusY/defizzed/issues"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 212
+  },
+  "after_action": "wait_for_response"
+}
