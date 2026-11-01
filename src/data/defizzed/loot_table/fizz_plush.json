@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
+          "name": "minecraft:poisonous_potato",
           "modifier": [
             {
               "type": "minecraft:set_components",
@@ -13,12 +13,20 @@
                 "minecraft:item_name": {"translate":"item.defizzed.fizz_plush","fallback":"Fizz Plush"},
                 "minecraft:item_model": "defizzed:fizz_plush",
                 "minecraft:custom_data": {"defizzed":{"id":"fizz_plush"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:profile": {"texture":"cnk:block/transparent_head"},
                 "minecraft:max_stack_size": 1,
-                "tooltip_display": {"hidden_components":["minecraft:profile"]},
+                "consumable": {
+                  "animation": "none",
+                  "consume_seconds": 999999999
+                },
+                "food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
                 "minecraft:tooltip_style": "defizzed:defizzed",
                 "minecraft:rarity":"uncommon",
-                "equippable": {"slot": "head"} 
+                "equippable": {"slot": "head"},
+                "custom_model_data": {"flags": [false]}
               }
             },
             "defizzed:tooltip"

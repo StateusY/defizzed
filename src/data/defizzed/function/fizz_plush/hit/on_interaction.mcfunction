@@ -1,3 +1,5 @@
+# FROM defizzed:fizz_plush/hit/main
+
 execute on target unless entity @s[tag=defizzed.hit_fizz_plush] run return fail
 
 data remove entity @s attack

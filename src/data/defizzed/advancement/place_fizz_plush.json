@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "poisonous_potato"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {"defizzed": {"id":"fizz_plush"}}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "defizzed:fizz_plush/place/setup"
+  }
+}

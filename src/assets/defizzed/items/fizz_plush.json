@@ -11,8 +11,17 @@
           "thirdperson_lefthand"
         ],
         "model": {
-          "type": "minecraft:model",
-          "model": "defizzed:block/fizz_plush"
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "defizzed:block/fizz_plush_equipped"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "defizzed:block/fizz_plush"
+            }
         }
       }
     ],
