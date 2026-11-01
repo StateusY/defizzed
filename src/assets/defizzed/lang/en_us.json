@@ -1,6 +1,9 @@
 {
     "item.defizzed.fizz_head": "Fizz Head",
     "item.defizzed.fizz_plush": "Fizz Plush",
+    "item.defizzed.fizz_pants": "Fizz's Trousers",
+    "item.defizzed.fizz_shirt": "Fizz's Jacket",
+    "item.defizzed.fizz_shoes": "Fizz's Sandals",
     
     "advancement.defizzed.fizz_head.name":"Defizzed",
     "advancement.defizzed.fizz_head.desc":"Relieve that frog of his decorative head",

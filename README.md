@@ -2,6 +2,8 @@ Defizzed is small addon for Crop and Kettle that adds Fizz's head.
 
 Have you ever looked at that loveable, swamp-dwelling frog merchant and thought, "Wow, my taxedermy collection could really use a humanoid frog head"? No? Maybe? Well this pack can make those dreams come true! You too can kill a naturally spawing fizz and get its head and reanimate it with redstone and reflect on your actions and have fun!!!
 
+Wait! That's not all! You can get an itty bitty fizz plush from fizz's signature lily pad parcels! They WILL silently judge you for your fizz head collection though.
+
 HEY! This is an addon datapack! It will do nothing or break if Crop and Kettle ([Github Page](https://github.com/maybejake/crop-and-kettle) [Modrinth Page](https://modrinth.com/datapack/crop-and-kettle)), is not installed. Go install it!
 
 ## FAQ:
@@ -16,6 +18,10 @@ It all depends, I most likely will not unless I have time! Plus, Crop and Kettle
 > How do I get the head?
 > 
 The fizz head only drops from WILD fizz, any spawned with a whistle will not drop their head.
+
+> How do I get the plush?
+> 
+The fizz plush can be gotten from lily pad parcels; open up a few and see what you can find!
 
 ---
 
