@@ -15,7 +15,8 @@
         "translate":"defizzed.dialog.info",
         "color": "gray",
         "with": [
-          {"translate": "defizzed.version"}
+          {"translate": "defizzed.version"},
+          {"translate": "defizzed.update", "color":"#81ae98"}
         ]
       },
       "width": 300
