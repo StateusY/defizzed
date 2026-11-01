@@ -4,15 +4,15 @@
     "models": [
       {
         "type": "minecraft:model",
-        "model": "defizzed:fizz_head"
+        "model": "defizzed:block/fizz_head/fizz_head"
       },
       {
         "type": "minecraft:condition",
         "property": "minecraft:custom_model_data",
-        "index": 1,
+        "index": 0,
         "on_true" : {
           "type": "minecraft:model",
-          "model": "defizzed:fizz_eyelid_left"
+          "model": "defizzed:block/fizz_head/fizz_eyelid_left"
         },
         "on_false" : {
           "type": "minecraft:empty"
@@ -21,10 +21,10 @@
       {
         "type": "minecraft:condition",
         "property": "minecraft:custom_model_data",
-        "index": 2,
+        "index": 1,
         "on_true" : {
           "type": "minecraft:model",
-          "model": "defizzed:fizz_eyelid_right"
+          "model": "defizzed:block/fizz_head/fizz_eyelid_right"
         },
         "on_false" : {
           "type": "minecraft:empty"

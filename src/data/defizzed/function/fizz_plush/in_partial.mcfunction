@@ -1,0 +1,1 @@
+execute positioned ~ ~-0.5 ~ unless block ~ ~ ~ #minecraft:trapdoors[half=bottom,open=false] unless block ~ ~ ~ #cnk:carpets unless block ~ ~ ~ #minecraft:slabs[type=bottom] positioned ~ ~ ~ run return run function defizzed:fizz_plush/break/break

@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_name": {"translate":"item.defizzed.fizz_head","fallback":"Fizz Head"},
                 "minecraft:item_model": "defizzed:fizz_head",
-                "minecraft:custom_data": {"cnk":{"fizz_head":true},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"defizzed":{"id":"fizz_head"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:entity_data": {"id":"minecraft:item_frame","Tags":["defizzed.fizz_head_setup"],"Silent":true,"Invisible":true},
                 "minecraft:tooltip_style": "defizzed:defizzed",
                 "minecraft:equippable": {"slot": "head"},

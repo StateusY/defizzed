@@ -1,16 +1,21 @@
 {
     "item.defizzed.fizz_head": "Fizz Head",
+    "item.defizzed.fizz_plush": "Fizz Plush",
     
     "advancement.defizzed.fizz_head.name":"Defizzed",
     "advancement.defizzed.fizz_head.desc":"Relieve that frog of his decorative head",
+    "advancement.defizzed.fizz_plush.name":"Fizz Jr.",
+    "advancement.defizzed.fizz_plush.desc":"Isn't he so cute!",
     
     "defizzed.pack_mark": "\ua001\ub001defizzed",
-    "defizzed.loaded": " Loaded!",
+    "defizzed.loaded": " loaded!",
     
     "defizzed.source": "Defizzed",
     "defizzed.dialog.description": "Defizzed is addon for Crop and Kettle that makes Fizz's head obainable.",
     "defizzed.dialog.info": "%1$s\nBy Stateus and Pan_Womsacz",
     "defizzed.version": "1.0.0",
     "defizzed.dialog.website": "Website",
-    "defizzed.dialog.issues": "Issues"
+    "defizzed.dialog.issues": "Issues",
+
+    "subtitles.spiced.item.plush.squeak": "Plush squeaks"
 }

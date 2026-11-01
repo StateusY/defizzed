@@ -1,0 +1,3 @@
+execute if entity @p[tag=defizzed.interact_fizz_plush,distance=..20,predicate=cnk:sneaking] on passengers if entity @s[type=minecraft:item_display,tag=cnk.mr_kettle_item] on vehicle run return run function defizzed:fizz_plush/item/clear
+execute unless items entity @p[tag=defizzed.interact_fizz_plush,distance=..20] weapon.mainhand * run return run playsound defizzed:item.plush.squeak block @a ~ ~ ~ 1 1
+execute if items entity @p[tag=defizzed.interact_fizz_plush,distance=..20] weapon.mainhand * run return run function defizzed:fizz_plush/item/main

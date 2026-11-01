@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.defizzed.fizz_plush","fallback":"Fizz Plush"},
+                "minecraft:item_model": "defizzed:fizz_plush",
+                "minecraft:custom_data": {"defizzed":{"id":"fizz_plush"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:profile": {"texture":"cnk:block/transparent_head"},
+                "minecraft:max_stack_size": 1,
+                "tooltip_display": {"hidden_components":["minecraft:profile"]},
+                "minecraft:tooltip_style": "defizzed:defizzed",
+                "minecraft:rarity":"uncommon",
+                "equippable": {"slot": "head"} 
+              }
+            },
+            "defizzed:tooltip"
+          ]
+        }
+      ]
+    }
+  ]
+}

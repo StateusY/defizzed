@@ -7,7 +7,7 @@
       }
     },
     "title": {"translate":"advancement.defizzed.fizz_head.name","fallback":"Defizzed"},
-    "description": [{"translate":"advancement.defizzed.fizz_head.desc","fallback":"Relieve that frog of his decorative head"},{"text":"\n\n"},{"translate":"defizzed.tooltip","font":"defizzed:tooltip","color":"white","italic":false}],
+    "description": [{"translate":"advancement.defizzed.fizz_head.desc","fallback":"Relieve that frog of his decorative head"},{"text":"\n\n"},{"translate":"defizzed.pack_mark","font":"defizzed:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
@@ -20,7 +20,7 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": {"cnk":{"fizz_head":true}}
+              "minecraft:custom_data": {"defizzed":{"id":"fizz_head"}}
             }
           }
         ]

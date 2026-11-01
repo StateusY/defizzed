@@ -1,0 +1,27 @@
+{
+  "item.plush.squeak": {
+    "sounds": [
+      {
+        "name": "defizzed:plush/squeak1",
+        "volume": 0.5
+      },
+      {
+        "name": "defizzed:plush/squeak2",
+        "volume": 0.5
+      },
+      {
+        "name": "defizzed:plush/squeak3",
+        "volume": 0.5
+      },
+      {
+        "name": "defizzed:plush/squeak4",
+        "volume": 0.5
+      },
+      {
+        "name": "defizzed:plush/squeak5",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.defizzed.item.plush.squeak"
+  }
+}

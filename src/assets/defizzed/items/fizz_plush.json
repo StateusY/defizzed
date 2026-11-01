@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "head",
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "defizzed:block/fizz_plush"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "defizzed:item/fizz_plush"
+    },
+    "property": "minecraft:display_context"
+  }
+}
