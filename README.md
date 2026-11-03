@@ -1,3 +1,5 @@
+![Crop & Kettle: Defizzed Title Image with a fizz head in the top right corner paired with a small fizz in the bottom left corner.](https://github.com/StateusY/defizzed/blob/main/resources/title.png?raw=true)
+
 Defizzed is small addon for Crop and Kettle that adds Fizz's head.
 
 Have you ever looked at that loveable, swamp-dwelling frog merchant and thought, "Wow, my taxedermy collection could really use a humanoid frog head"? No? Maybe? Well this pack can make those dreams come true! You too can kill a naturally spawing fizz and get its head and reanimate it with redstone and reflect on your actions and have fun!!!
