@@ -1,0 +1,1 @@
+execute if data storage cnk:temp block.data.components."minecraft:custom_data".cnk.block{type:"fizz_rack"} run return run function defizzed:fizz_rack/place

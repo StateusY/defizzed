@@ -1,0 +1,21 @@
+# FROM defizzed:cnk_hooks/switch
+
+playsound minecraft:block.bamboo_wood.place block @a ~ ~ ~ 1 2
+
+data modify storage cnk:temp rotation set value 0
+execute if score $rotation cnk.dummy matches 1350..1800 align xyz positioned ~0.5 ~0.5 ~0.5 run data modify storage cnk:temp rotation set value -180
+execute if score $rotation cnk.dummy matches 1350..1800 if block ~ ~ ~1 #defizzed:ignore_collision run return run loot spawn ~ ~ ~ loot defizzed:fizz_rack
+
+execute if score $rotation cnk.dummy matches -1800..-1350 align xyz positioned ~0.5 ~0.5 ~0.5 run data modify storage cnk:temp rotation set value -180
+execute if score $rotation cnk.dummy matches -1800..-1350 if block ~ ~ ~1 #defizzed:ignore_collision run return run loot spawn ~ ~ ~ loot defizzed:fizz_rack
+
+execute if score $rotation cnk.dummy matches -1350..-450 align xyz positioned ~0.5 ~0.5 ~0.5 run data modify storage cnk:temp rotation set value -90
+execute if score $rotation cnk.dummy matches -1350..-450 if block ~-1 ~ ~ #defizzed:ignore_collision run return run loot spawn ~ ~ ~ loot defizzed:fizz_rack
+
+execute if score $rotation cnk.dummy matches -450..450 align xyz positioned ~0.5 ~0.5 ~0.5 run data modify storage cnk:temp rotation set value 0
+execute if score $rotation cnk.dummy matches -450..450 if block ~ ~ ~-1 #defizzed:ignore_collision run return run loot spawn ~ ~ ~ loot defizzed:fizz_rack
+
+execute if score $rotation cnk.dummy matches 450..1350 align xyz positioned ~0.5 ~0.5 ~0.5 run data modify storage cnk:temp rotation set value 90
+execute if score $rotation cnk.dummy matches 450..1350 if block ~1 ~ ~ #defizzed:ignore_collision run return run loot spawn ~ ~ ~ loot defizzed:fizz_rack
+
+function defizzed:fizz_rack/macro with storage cnk:temp

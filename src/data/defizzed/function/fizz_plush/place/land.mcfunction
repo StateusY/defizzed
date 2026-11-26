@@ -1,14 +1,14 @@
 # FROM defizzed:fizz_plush/place/setup
 
 # floor rotation
-execute unless block ~ ~-0.1 ~ #defizzed:ignore_collision store result storage cnk:temp rotation int 1 run scoreboard players get $rotation cnk.dummy
+execute unless block ~ ~-0.1 ~ #defizzed:fizz_placeable store result storage cnk:temp rotation int 1 run scoreboard players get $rotation cnk.dummy
 
 # wall rotation
-execute if block ~ ~-0.1 ~ #defizzed:ignore_collision run function defizzed:fizz_plush/place/wall_rotation
+execute if block ~ ~-0.1 ~ #defizzed:fizz_placeable run function defizzed:fizz_plush/place/wall_rotation
 
 # floor snapping
-execute unless block ~ ~ ~ #defizzed:ignore_collision unless block ~ ~ ~ #slabs unless block ~ ~ ~ #trapdoors if block ~ ~0.6 ~ #defizzed:ignore_collision align y run tp ~ ~1 ~
-# execute unless block ~ ~ ~ #defizzed:ignore_collision align y run tp ~ ~1 ~
+execute unless block ~ ~ ~ #defizzed:fizz_placeable unless block ~ ~ ~ #slabs unless block ~ ~ ~ #trapdoors if block ~ ~0.6 ~ #defizzed:fizz_placeable align y run tp ~ ~1 ~
+# execute unless block ~ ~ ~ #defizzed:fizz_placeable align y run tp ~ ~1 ~
 
 # SFX and particles
 playsound defizzed:item.plush.squeak neutral @a ~ ~ ~ 1 1

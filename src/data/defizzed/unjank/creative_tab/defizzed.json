@@ -1,0 +1,17 @@
+{
+  "icon": {
+    "id": "minecraft:diamond",
+    "components": {
+      "minecraft:item_model": "defizzed:fizz_plush"
+    }
+  },
+  "title": "Defizzed",
+  "items": [
+    "defizzed:fizz_head",
+    "defizzed:fizz_plush",
+    "defizzed:fizz_rack",
+    "defizzed:fizz_shirt",
+    "defizzed:fizz_pants",
+    "defizzed:fizz_shoes"
+  ]
+}

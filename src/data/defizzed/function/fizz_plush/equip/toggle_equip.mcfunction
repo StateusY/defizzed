@@ -6,5 +6,3 @@ tag @s add defizzed.equip_cooldown
 execute store result score $fizz_toggle cnk.dummy run data get entity @s SelectedItem.components."minecraft:custom_model_data".flags[0]
 execute if score $fizz_toggle cnk.dummy matches 1 run item modify entity @s weapon.mainhand {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[false]}}
 execute if score $fizz_toggle cnk.dummy matches 0 run item modify entity @s weapon.mainhand {"type":"minecraft:set_custom_model_data","flags":{"mode":"replace_section","size":1,"offset":0,"values":[true]}}
-
-schedule function defizzed:fizz_plush/equip/equip_cooldown 10t append

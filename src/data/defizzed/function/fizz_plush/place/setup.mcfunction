@@ -4,7 +4,7 @@
 execute unless items entity @s weapon.mainhand poisonous_potato[minecraft:custom_data~{defizzed:{id:"fizz_plush"}}] run return 0
 
 # if shifting, just equip/unequip fizz
-execute if entity @s[predicate=cnk:sneaking] run return run function defizzed:fizz_plush/equip/toggle_equip
+# execute if entity @s[predicate=cnk:sneaking] run return run function defizzed:fizz_plush/equip/toggle_equip
 
 advancement revoke @s only defizzed:place_fizz_plush
 
@@ -16,7 +16,7 @@ data remove storage cnk.iris:settings Callback
 data remove storage cnk.iris:settings Blacklist
 
 # raycast with iris
-data merge storage cnk.iris:settings {TargetEntities:false,MaxRecursionDepth:16,Blacklist:"#defizzed:ignore_collision"}
+data merge storage cnk.iris:settings {TargetEntities:false,MaxRecursionDepth:16,Blacklist:"#defizzed:fizz_placeable"}
 execute store result score $max_distance cnk.dummy run attribute @s minecraft:block_interaction_range get 1000000
 execute at @s anchored eyes positioned ^ ^ ^ store result score $distance cnk.dummy run function cnk.iris:get_target
 execute if score $distance cnk.dummy matches 0 run return 0

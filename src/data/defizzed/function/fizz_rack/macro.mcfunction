@@ -1,0 +1,4 @@
+# FROM defizzed:fizz_rack/place
+
+$summon item_display ~ ~0.5 ~ {Tags:["defizzed.fizz_rack","cnk.block","smithed.block","smithed.entity","smithed.strict"$(extra_tags)],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1.01f,1.01f,1.01f],translation:[0.0f,0.0f,0.0f]},item:{id:"minecraft:barrier",count:1,components:{"minecraft:item_name":$(item_name),"minecraft:item_model":"defizzed:fizz_rack_block","minecraft:custom_data":{"$jade:stack":{"id":"defizzed:fizz_rack"}}}},Rotation:[$(rotation),0.0]}
+summon interaction ~0.5 ~0.5 ~0.5 {Tags:["defizzed.fizz_rack_interaction","smithed.block","smithed.entity","smithed.strict"],height:0.25,width:0.3}
